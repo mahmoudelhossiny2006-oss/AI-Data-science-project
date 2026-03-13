@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;700&display=swap');
+
+* { box-sizing: border-box; }
+
+.dark-dropdown .Select-control {
+    background-color: #1A1A1A !important;
+    border-color: #2A2A2A !important;
+    color: #E8E8E0 !important;
+}
+
+.dark-dropdown .Select-menu-outer {
+    background-color: #1A1A1A !important;
+    border-color: #2A2A2A !important;
+}
+
+.dark-dropdown .Select-option {
+    background-color: #1A1A1A !important;
+    color: #E8E8E0 !important;
+}
+
+.dark-dropdown .Select-option:hover,
+.dark-dropdown .Select-option.is-focused {
+    background-color: #2A2A2A !important;
+}
+
+.dark-dropdown .Select-value-label {
+    color: #C9A84C !important;
+}
+
+.dark-dropdown .Select-placeholder {
+    color: #888880 !important;
+}
+
+/* scrollbar */
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: #0F0F0F; }
+::-webkit-scrollbar-thumb { background: #2A2A2A; border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: #C9A84C; }
